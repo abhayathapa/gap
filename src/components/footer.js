@@ -8,7 +8,8 @@ const Footer = () => {
         <div>
           <h1 className="text-white text-4xl text-bold">GAP Technologies</h1>
           <p className="text-white text-sm mt-5 opacity-50">
-            We are digital transformation company.
+            Digital transformation company.
+            <p>5th Floor, Trade Tower, Thapathali, Kathmandu</p>
           </p>
           <h3 className="text-white text-lg mt-20 ">
             Copyright 2023 GAP Technologies. All rights reserved.
