@@ -16,10 +16,10 @@ const Testimonial = () => {
             </div>
             <div className="mt-10">
               <h1 className="text-white text-3xl font-bold font-poppins">
-                Ofelia Bashirian
+                Nisarg H Acharya
               </h1>
               <h1 className="text-white text-sm font-semibold font-poppins opacity-50">
-                Senior Project Manager
+                Vice President - EC Council
               </h1>
             </div>
           </div>

@@ -22,12 +22,10 @@ const AboutMore = () => {
       </Fade>
       <div className="grid grid-cols-4">
         <p className="col-start-3 col-end-5 text-white text-3xl leading-normal mt-10 xxs:col-start-1 sm:col-start-3 xxs:text-sm xs:text-lg sm:text-3xl">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
+          GAP Technologies is a pioneering technology startup based in the heart
+          of Nepal. We're committed to pushing the boundaries of innovation and
+          harnessing the power of artificial intelligence to transform
+          industries and fortify national security and cybersecurity landscapes.
         </p>
       </div>
     </div>

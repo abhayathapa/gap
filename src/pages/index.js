@@ -15,7 +15,7 @@ const IndexPage = () => (
       <FeatureSection></FeatureSection>
       <Testimonial></Testimonial>
       <Pricing></Pricing>
-      <FeaturedBlog></FeaturedBlog>
+      {/* <FeaturedBlog></FeaturedBlog> */}
     </Layout>
   </div>
 )
