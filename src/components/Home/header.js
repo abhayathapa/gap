@@ -4,7 +4,7 @@ import Button from "../Atoms/button"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeaderImage from "../../images/header-main.jpg"
+// import HeaderImage from "../../images/header-main.jpg"
 
 const Header = () => {
   return (
@@ -16,8 +16,8 @@ const Header = () => {
           </h2>
 
           <h1 className="text-white font-poppins font-semibold text-2xl xxs:text-2xl xs:text-2xl sm:text-lg md:text-2xl lg:text-4xl xl:text-7xl 2xl:text-8xl">
-            Change starts with <br></br> a{" "}
-            <span class="text-gradient bg-gradient-to-r from-pink to-purple">
+            Change starts with a<br></br>
+            <span class="text-gradient bg-gradient-to-r from-pink to-blue">
               single click.
             </span>
           </h1>
@@ -34,11 +34,11 @@ const Header = () => {
           ></Button>
         </div>
       </Fade> */}
-      <div className="max-w-7xl mx-auto mt-10">
+      {/* <div className="max-w-7xl mx-auto mt-10">
         <div className="w-full h-auto overflow-hidden rounded-xl">
           <img className="w-full h-full" src={HeaderImage} alt="Header"></img>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -10,9 +10,6 @@ const PricingMain = () => {
           <div className="flex w-9/12 bg-white h-auto rounded-xl">
             <div className="p-8 w-3/5">
               <h1 className="text-3xl font-bold">
-                <h1 className="text-4xl mt-2 font-bold text-white">
-                  OUR PRODUCTS
-                </h1>
                 {/* Unlimited access to all<br></br>products. */}
                 OUR PRODUCTS
               </h1>

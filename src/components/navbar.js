@@ -1,16 +1,20 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
+import logo from "../images/logo.png"
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
     <nav className="bg-transparent">
-      <div className="max-w-7xl mx-auto px-8 py-5">
-        <div className="flex items-center justify-between h-16">
+      <div className="max-w-7xl mx-auto py-5 mb-28">
+        <div className="flex items-center justify-between h-12">
           <div className="w-full justify-between flex items-center">
-            <a className="text-white flex-shrink-0 font-poppins" href="/">
-              GAP Technologies
-            </a>
+            <div className="flex mt-5">
+              <a className="text-white font-poppins mt-10 flex" href="/">
+                {/* <span className="pt-24"> GAP Technologies </span> */}
+                <img className="w-1/3" src={logo} alt="Header"></img>
+              </a>
+            </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link
@@ -46,7 +50,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="-mr-2 flex md:hidden">
+          {/* <div className="-mr-2 flex md:hidden">
             <button
               onClick={() => setOpenMenu(!openMenu)}
               className="text-gray-800 dark:text-white hover:text-gray-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none"
@@ -62,7 +66,7 @@ const Navbar = () => {
                 <path d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z"></path>
               </svg>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
       {openMenu && (

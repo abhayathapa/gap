@@ -15,6 +15,7 @@ module.exports = {
       pink: "#FBC2EB",
       white: colors.white,
       lightblack: "#141414",
+      blue: "#4169E1",
       gray: colors.gray,
       transparent: colors.transparent,
     },

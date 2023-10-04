@@ -18,28 +18,36 @@ const Contact = () => {
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
             </p> */}
-            <form className="mt-5">
+            <form
+              name="Contact Form"
+              method="POST"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              action="/"
+            >
+              <input type="hidden" name="form-name" value="Contact Form" />
               <div className="flex xxs:flex-col sm:flex-row">
                 <div className="sm:mr-5 xxs:mr-0">
-                  <Input placeholder="Your Name"></Input>
+                  <Input placeholder="Your Name" name="name"></Input>
                 </div>
                 <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
-                  <Input placeholder="Your Email"></Input>
+                  <Input placeholder="Your Email" name="email"></Input>
                 </div>
               </div>
 
               <div className="flex mt-5 xxs:flex-col sm:flex-row">
                 <div className="sm:mr-5 xxs:mr-0">
-                  <Input placeholder="Your Company"></Input>
+                  <Input placeholder="Your Company" name="company"></Input>
                 </div>
                 <div className="sm:ml-5 xxs:ml-0 xxs:mt-2 sm:mt-0">
-                  <Input placeholder="Your Phone"></Input>
+                  <Input placeholder="Your Phone" name="phone"></Input>
                 </div>
               </div>
               <textarea
                 className="mt-5 w-full bg-white bg-opacity-20 rounded-xl p-5"
                 rows="5"
                 placeholder="How can we help you?"
+                name="message"
               ></textarea>
               <Button
                 title="Send us a message"

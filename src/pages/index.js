@@ -14,7 +14,7 @@ const IndexPage = () => (
       <Header></Header>
       <FeatureSection></FeatureSection>
       <Testimonial></Testimonial>
-      <Pricing></Pricing>
+      {/* <Pricing></Pricing> */}
       {/* <FeaturedBlog></FeaturedBlog> */}
     </Layout>
   </div>
