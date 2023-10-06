@@ -9,20 +9,13 @@ const Testimonial = () => {
           <div className="w-3/4 xxs:w-full xs:w-full sm:w-3/4">
             <p className="text-white leading-10 xxs:text-xs xxs:font-normal sm:text-xl">
               Working with GAP Technologies has been nothing short of
-              exceptional. Their team's unwavering dedication to cybersecurity
-              is truly commendable. Their in-depth knowledge and innovative
+              exceptional. Their in-depth cybersecurity knowledge and innovative
               solutions have provided us with a sense of security and peace of
-              mind that is priceless in today's digital landscape. Their
-              proactive approach to identifying vulnerabilities and implementing
-              robust security measures has not only shielded clients from
-              potential risks but has also allowed us to focus on our core
-              business activities without worry.
-            </p>
-            <br />
-            <p className="text-white leading-10 xxs:text-xs xxs:font-normal sm:text-xl">
-              What sets GAP Technologies apart is their commitment to continuous
-              improvement and staying ahead of the evolving cybersecurity
-              landscape. They not only provide top-notch services but also take
+              mind that is priceless in today's digital landscape. The proactive
+              approach to identifying vulnerabilities and implementing robust
+              security measures has not only shielded clients from potential
+              risks but has also allowed us to focus on our core business
+              activities.They not only provide top-notch services but also take
               the time to educate and empower the team, ensuring that clients
               are well-prepared to face any challenges that may arise.
             </p>
@@ -36,17 +29,21 @@ const Testimonial = () => {
             </p>
             <div className="mt-10">
               <h1 className="text-white text-3xl font-bold font-poppins">
-                Nisarg H Acharya
+                Ryan Henry
               </h1>
               <h1 className="text-white text-sm font-semibold font-poppins opacity-50">
-                Vice President - EC Council
+                VP - EC Council
               </h1>
             </div>
           </div>
           <div className="w-1/4 overflow-hidden flex align-middle justify-center xxs:hidden sm:block">
-            <img
+            {/* <img
               className="rounded-xl w-auto h-auto"
               src="https://media.licdn.com/dms/image/D4D03AQEIuXg8yyRKdg/profile-displayphoto-shrink_800_800/0/1691144036217?e=1701907200&v=beta&t=8rxKUjHvWGAxZUSKbLCrLqIz6YZ_TXgVly-9KZHU-q8&auto=format&fit=crop&w=800&q=60"
+            ></img> */}
+            <img
+              className="rounded-xl w-auto h-auto"
+              src="https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
             ></img>
           </div>
         </div>

@@ -1,14 +1,13 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import Card from "../Card"
 
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto ">
       <Fade bottom cascade>
-        <div className="w-full flex flex-row justify-between mt-10 xxs:flex-col xs:flex-col sm:flex-row">
+        <div className="w-full flex flex-row justify-between mt-2 xxs:flex-col xs:flex-col sm:flex-row">
           <div className="rounded-xl w-full h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-purple to-blue hover:from-lightblack to-lightblack transition duration-500 ease-in-out">
-            <h1 className="text-white text-5xl">2000</h1>
+            <h1 className="text-white text-5xl">1000</h1>
             <h3 className="text-white">Cybersecurity Courses</h3>
           </div>
           <div className="rounded-xl w-full h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-purple to-blue hover:from-lightblack to-lightblack transition duration-500 ease-in-out">
@@ -70,13 +69,18 @@ const FeatureSection = () => {
       </Fade>
       <Fade bottom cascade>
         <div className="mt-10 px-8">
-          <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+          {/* <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
             Join the revolution
+          </h1> */}
+          <h1 className="text-white font-poppins font-semibold text-2xl xxs:text-2xl xs:text-2xl sm:text-lg md:text-2xl lg:text-3xl xl:text-5xl">
+            <span class="text-gradient bg-gradient-to-r from-pink to-blue">
+              INNOVATE, PROTECT, EMPOWER
+            </span>
           </h1>
         </div>
       </Fade>
       <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row text-white">
+        <div className="mt-2 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row text-white">
           <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
             <h1 className="text-2xl">Cybersecurity</h1>
             <p className="mt-5 opacity-90 font-semibold">
@@ -125,37 +129,41 @@ const FeatureSection = () => {
       </Fade>
 
       <div className="mt-10 px-8">
-        <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-          Products & Services
-        </h1>
-        <div className="flex justify-normal">
-          <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h1 className="text-white text-2xl">Cybersecurity</h1>
-            <p className="mt-10 text-white opacity-90 font-semibold">
-              <p>Academia</p>
-              <p>AWARE</p>
-              <p>CyberQ</p>
-              <p>Cybersecurity Consulting</p>
-              <p>ISO Certification</p>
-            </p>
-          </div>
+        <Fade bottom>
+          <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+            <span class="text-gradient bg-gradient-to-r from-pink to-blue">
+              Products & Services
+            </span>
+          </h1>
+          <div className="flex justify-normal">
+            <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+              <h1 className="text-white text-2xl">Cybersecurity</h1>
+              <p className="mt-10 text-white opacity-90 font-semibold">
+                <p>Academia</p>
+                <p>AWARE</p>
+                <p>CyberQ</p>
+                <p>Cybersecurity Consulting</p>
+                <p>ISO Certification</p>
+              </p>
+            </div>
 
-          <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h1 className="text-white text-2xl">AI-powered systems</h1>
-            <p className="mt-10 text-white opacity-90 font-semibold">
-              <p>Law Enforcement</p>
-              <p>Airports and Immigration</p>
-              <p>Education Institutions</p>
-              <p>Banking and Financial Institutions</p>
-              <p>Hotel and Casinos</p>
-              <p>Retail and Distribution</p>
-              <p>Residential Buildings</p>
-              <p>Health Care Facilities</p>
-              <p>Clubs and Lounges</p>
-              <p>Smart Cities</p>
-            </p>
+            <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+              <h1 className="text-white text-2xl">AI-powered systems</h1>
+              <p className="mt-10 text-white opacity-90 font-semibold">
+                <p>Law Enforcement</p>
+                <p>Airports and Immigration</p>
+                <p>Education Institutions</p>
+                <p>Banking and Financial Institutions</p>
+                <p>Hotel and Casinos</p>
+                <p>Retail and Distribution</p>
+                <p>Residential Buildings</p>
+                <p>Health Care Facilities</p>
+                <p>Clubs and Lounges</p>
+                <p>Smart Cities</p>
+              </p>
+            </div>
           </div>
-        </div>
+        </Fade>
       </div>
     </div>
   )

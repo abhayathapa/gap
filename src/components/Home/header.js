@@ -23,8 +23,7 @@ const Header = () => {
           </h1>
         </div>
       </Fade>
-      {/* <Fade bottom>
-        <div className="mt-10 xxs:flex xxs:flex-row sm:block">
+      {/* <div className="mt-10 xxs:flex xxs:flex-row sm:block">
           <Input placeholder="email."></Input>
           <Button
             colorClass="bg-gradient-to-r from-pink to-purple "
@@ -33,8 +32,7 @@ const Header = () => {
             marginClass="ml-5"
           ></Button>
         </div>
-      </Fade> */}
-      {/* <div className="max-w-7xl mx-auto mt-10">
+      /* <div className="max-w-7xl mx-auto mt-10">
         <div className="w-full h-auto overflow-hidden rounded-xl">
           <img className="w-full h-full" src={HeaderImage} alt="Header"></img>
         </div>
