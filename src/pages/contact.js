@@ -51,7 +51,7 @@ const Contact = () => {
               ></textarea>
               <Button
                 title="Send us a message"
-                colorClass="bg-gradient-to-r from-pink to-purple"
+                colorClass="bg-gradient-to-r from-purple to-blue"
                 marginClass="mt-5"
               ></Button>
             </form>

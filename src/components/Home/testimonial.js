@@ -32,7 +32,7 @@ const Testimonial = () => {
                 Ryan Henry
               </h1>
               <h1 className="text-white text-sm font-semibold font-poppins opacity-50">
-                VP - EC Council
+                VP - Smarsh
               </h1>
             </div>
           </div>
