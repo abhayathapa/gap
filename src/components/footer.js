@@ -12,7 +12,8 @@ const Footer = () => {
           <p className="ml-8 opacity-50">
             GAP TECHNOLOGIES
             {/* <p>Innovate, Protect, Empower</p> */}
-            <p>5th Floor, Trade Tower, Thapathali, Kathmandu, Nepal</p>
+            <p>5th Floor, Trade Tower, Thapathali</p>
+            <p>Kathmandu, Nepal</p>
             <p>e. info@gaptechnologies.co</p>
             <a href="https://www.linkedin.com/company/gap-technologies-pvt-ltd">
               <img className="w-1/12 h-1/12" src={linkedin}></img>

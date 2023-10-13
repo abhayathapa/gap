@@ -10,9 +10,6 @@ const AboutGrid = () => {
       {/* <h1 className="text-white text-5xl ml-60 mt-10 pl-3 font-bold xxs:text-2xl xs:text-2xl sm:text-3xl lg:text-5xl">
         Join the revolution
       </h1> */}
-      <h1 className="font-semibold text-white text-4xl mb-5 mt-10 pl-3 ml-60">
-        Our Founders
-      </h1>
       <div className="max-w-7xl mx-auto mt-5 grid grid-cols-3 gap-16 justify-items-center xxs:grid-cols-1 sm:grid-cols-3">
         <AboutTeamCard
           imgSrc={prince}

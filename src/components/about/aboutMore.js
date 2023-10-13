@@ -60,6 +60,9 @@ const AboutMore = () => {
             artificial intelligence, making the world safer, smarter, and more
             connected.
           </p>
+          <h1 className="font-semibold text-white text-4xl mb-5 mt-10">
+            Our Founders
+          </h1>
         </div>
       </div>
     </div>
