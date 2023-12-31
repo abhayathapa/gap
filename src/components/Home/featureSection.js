@@ -59,7 +59,7 @@ const FeatureSection = () => {
             <h1 className="text-white text-4xl">Our Core Behaviours</h1>
             <p className="mt-10 text-white opacity-50">
               Our business encompasses three core areas: AI-powered facial
-              recognition technology for security and surveillance, AI-powered
+              recognition technology for security and surveillance, IOT
               solutions for the retail and distribution sector, and a
               cybersecurity academia dedicated to education, training,
               certification, and consulting.
@@ -111,7 +111,7 @@ const FeatureSection = () => {
           </div>
 
           <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h1 className="text-2xl">AI-powered solutions for retail</h1>
+            <h1 className="text-2xl">AI/ IOT powered solutions for retail</h1>
             <p className="mt-5 opacity-90 font-semibold">
               We are at the forefront of revolutionizing the retail industry
               with their cutting-edge AI-powered solutions. Leveraging advanced

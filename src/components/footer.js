@@ -15,12 +15,13 @@ const Footer = () => {
             <p>5th Floor, Trade Tower, Thapathali</p>
             <p>Kathmandu, Nepal</p>
             <p>e. info@gaptechnologies.co</p>
+            <p>p. 01-4610002 | 01-4610004</p>
             <a href="https://www.linkedin.com/company/gap-technologies-pvt-ltd">
               <img className="w-1/12 h-1/12" src={linkedin}></img>
             </a>
           </p>
           <h3 className="ml-8 mt-5 opacity-50">
-            Copyright 2023 GAP Technologies. All rights reserved.
+            Copyright 2024 GAP Technologies. All rights reserved.
           </h3>
         </div>
         {/* <div className="place-self-end self-center xxs:hidden lg:block">
