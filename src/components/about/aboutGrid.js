@@ -21,7 +21,7 @@ const AboutGrid = () => {
         ></AboutTeamCard>
         <AboutTeamCard
           imgSrc={abhaya}
-          position="Abhaya Thapa, Co-founder"
+          position="Abhaya Jung Thapa, Co-founder"
         ></AboutTeamCard>
         {/* <AboutTeamCard
         imgSrc="https://images.unsplash.com/photo-1536096928601-99bac26a838b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE5fHxwZW9wbGV8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
