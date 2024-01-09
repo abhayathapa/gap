@@ -1,12 +1,13 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import logo from "../images/logo-with-tagline.png"
+// import logo from "../images/logo-with-tagline.png"
+import logo from "../images/logo-G.jpg"
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
     <nav className="bg-transparent">
-      <div className="max-w-7xl mx-auto py-5 mb-28">
+      <div className="max-w-7xl mx-auto py-5 mb-40">
         <div className="flex items-center justify-between h-12">
           <div className="w-full justify-between flex items-center">
             <div className="flex mt-5">

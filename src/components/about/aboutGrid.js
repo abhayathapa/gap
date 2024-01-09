@@ -1,6 +1,6 @@
 import React from "react"
 import AboutTeamCard from "./aboutTeamCard"
-import abhaya from "../../images/abhaya.png"
+import abhaya from "../../images/abhaya.jpg"
 import prince from "../../images/prince.jpeg"
 import gaurav from "../../images/gaurav.jpeg"
 

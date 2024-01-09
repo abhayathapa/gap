@@ -2,7 +2,7 @@ import React from "react"
 import Input from "../Atoms/input"
 import Button from "../Atoms/button"
 import Fade from "react-reveal/Fade"
-import ec1 from "../../images/ec1.png"
+import ec1 from "../../images/ec1.jpg"
 
 // Assets
 // import HeaderImage from "../../images/header-main.jpg"
