@@ -15,7 +15,7 @@ const Navbar = () => {
                 <img className="w-1/3" src={logo} alt="Header"></img>
               </a>
             </div>
-            <div className="hidden md:block">
+            <div className="hidden md:block mr-5">
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link
                   className="text-white opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-poppins"

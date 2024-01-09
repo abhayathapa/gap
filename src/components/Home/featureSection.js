@@ -140,7 +140,7 @@ const FeatureSection = () => {
               <h1 className="text-white text-2xl">Cybersecurity</h1>
               <p className="mt-10 text-white opacity-90 font-semibold">
                 <p>Academia</p>
-                <p>AWARE</p>
+                <p>AWARE - anti-phising product</p>
                 <p>CyberQ</p>
                 <p>Cybersecurity Consulting</p>
                 <p>ISO Certification</p>
