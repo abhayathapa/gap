@@ -12,7 +12,9 @@ const Header = () => {
     <div className="max-w-7xl mx-auto px-8">
       <Fade>
         <div className="overflow-hidden flex align-middle justify-center xxs:hidden sm:block">
-          <img className=" h-1/3 " src={ec1} alt="Detail 1"></img>
+          <a href="https://eccouncil.org/cybersecurity-scholarship-nepal/">
+            <img className=" h-1/3 " src={ec1} alt="EC Council"></img>
+          </a>
         </div>
         <div>
           <h2 className="text-white font-poppins opacity-50 font-semibold mt-20 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-xl">
