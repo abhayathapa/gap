@@ -9,7 +9,7 @@ import ec1 from "../../images/ec1.jpg"
 
 const Header = () => {
   return (
-    <div className="max-w-7xl mx-auto px-8">
+    <div className="max-w-7xl mx-auto px-5">
       <Fade>
         <div className="overflow-hidden flex align-middle justify-center sm:block">
           <a href="https://eccouncil.org/cybersecurity-scholarship-nepal/">
@@ -17,7 +17,7 @@ const Header = () => {
           </a>
         </div>
         <div>
-          <h2 className="text-white font-poppins opacity-50 font-semibold mt-20 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-xl">
+          <h2 className="text-white font-poppins opacity-50 font-semibold mt-20 text-xl lg:text-xl mb-3">
             We deliver premium solutions on cybersecurity, AI and IOT solutions
           </h2>
 

@@ -7,11 +7,11 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
     <nav className="bg-transparent">
-      <div className="max-w-7xl mx-auto py-5 mb-40">
+      <div className="max-w-7xl mx-auto py-5 xxs:mb-10 md:mb-40">
         <div className="flex items-center justify-between h-12">
           <div className="w-full justify-between flex items-center">
             <div className="flex mt-5">
-              <a className="text-white font-poppins mt-10 flex" href="/">
+              <a className="text-white font-poppins flex" href="/">
                 {/* <span className="pt-24"> GAP Technologies </span> */}
                 <img className="w-1/3" src={logo} alt="Header"></img>
               </a>
