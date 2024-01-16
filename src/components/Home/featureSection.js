@@ -6,19 +6,19 @@ const FeatureSection = () => {
     <div className="max-w-7xl mx-auto ">
       <Fade bottom cascade>
         <div className="w-full flex flex-row justify-between mt-2 xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="rounded-xl w-full h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-purple to-blue hover:from-lightblack to-lightblack transition duration-500 ease-in-out">
+          <div className="rounded-xl w-full xxs:w-80 xs:w-80 h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-purple to-blue hover:from-lightblack to-lightblack transition duration-500 ease-in-out">
             <h1 className="text-white text-5xl">1000</h1>
             <h3 className="text-white">Cybersecurity Courses</h3>
           </div>
-          <div className="rounded-xl w-full h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-purple to-blue hover:from-lightblack to-lightblack transition duration-500 ease-in-out">
+          <div className="rounded-xl w-full xxs:w-80 xs:w-80 h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-purple to-blue hover:from-lightblack to-lightblack transition duration-500 ease-in-out">
             <h1 className="text-white text-5xl">15000</h1>
             <h3 className="text-white">Cybersecurity Videos</h3>
           </div>
-          <div className="rounded-xl w-full h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-purple to-blue hover:from-lightblack to-lightblack transition duration-500 ease-in-out">
+          <div className="rounded-xl w-full xxs:w-80 xs:w-80 h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-purple to-blue hover:from-lightblack to-lightblack transition duration-500 ease-in-out">
             <h1 className="text-white text-5xl">3</h1>
             <h3 className="text-white">AI based surveillance system</h3>
           </div>
-          <div className="rounded-xl w-full h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-purple to-blue hover:from-lightblack to-lightblack transition duration-500 ease-in-out">
+          <div className="rounded-xl w-full xxs:w-80 xs:w-80 h-52 flex flex-col content-center justify-center align-middle text-center m-5 bg-gradient-to-r from-purple to-blue hover:from-lightblack to-lightblack transition duration-500 ease-in-out">
             <h1 className="text-white text-5xl">10</h1>
             <h3 className="text-white">OEM Partners</h3>
           </div>
@@ -41,7 +41,7 @@ const FeatureSection = () => {
       </Fade> */}
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+          <div className="w-2/6 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-80 xs:w-80 sm:w-2/6">
             <h1 className="text-white text-4xl">Stats</h1>
             <div className="mt-5">
               <div>
@@ -81,7 +81,7 @@ const FeatureSection = () => {
       </Fade>
       <Fade bottom cascade>
         <div className="mt-2 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row text-white">
-          <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-80 xs:w-80 sm:w-1/3">
             <h1 className="text-2xl">Cybersecurity</h1>
             <p className="mt-5 opacity-90 font-semibold">
               We're committed to fortifying the nation's cybersecurity
@@ -94,7 +94,7 @@ const FeatureSection = () => {
               cybercrime.
             </p>
           </div>
-          <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-80 xs:w-80 sm:w-1/3">
             <h1 className="text-2xl">
               AI-Powered Facial Recognition Technology
             </h1>
@@ -110,7 +110,7 @@ const FeatureSection = () => {
             </p>
           </div>
 
-          <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-80 xs:w-80 sm:w-1/3">
             <h1 className="text-2xl">AI/ IOT powered solutions for retail</h1>
             <p className="mt-5 opacity-90 font-semibold">
               We are at the forefront of revolutionizing the retail industry
@@ -131,12 +131,12 @@ const FeatureSection = () => {
       <div className="mt-10 px-8">
         <Fade bottom>
           <h1 className="text-white text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-            <span class="text-gradient bg-gradient-to-r from-pink to-blue">
+            <span class="text-gradient bg-gradient-to-r from-pink to-blue px-8">
               Products & Services
             </span>
           </h1>
-          <div className="flex justify-normal">
-            <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+          <div className="flex justify-normal xxs:flex-col xs:flex-col sm:flex-row">
+            <div className="bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-80 xs:w-80 sm:w-1/2">
               <h1 className="text-white text-2xl">Cybersecurity</h1>
               <p className="mt-10 text-white opacity-90 font-semibold">
                 <p>Academia</p>
@@ -147,7 +147,7 @@ const FeatureSection = () => {
               </p>
             </div>
 
-            <div className="w-1/3 bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+            <div className="bg-gradient-to-r from-purple to-blue p-8 rounded-xl m-5 xxs:w-80 xs:w-80 sm:w-1/2">
               <h1 className="text-white text-2xl">AI-powered systems</h1>
               <p className="mt-10 text-white opacity-90 font-semibold">
                 <p>Law Enforcement</p>

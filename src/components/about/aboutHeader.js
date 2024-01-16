@@ -11,8 +11,8 @@ const AboutHeader = () => {
         <div className="mt-5">
           <span className="text-white text-m opacity-50">About us</span>
           <h1 className="text-white text-5xl font-poppins mt-5 font-semibold leading-snug xxs:text-lg xs:text-lg sm:text-3xl lg:text-5xl">
-            We're on a mission to power industries with artificial intelligence
-            and cybersecurity expertise.
+            We're on a mission to power industries with cybersecurity, AI and
+            IOT expertise.
           </h1>
         </div>
       </div>

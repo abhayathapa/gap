@@ -36,13 +36,12 @@ const AboutMore = () => {
           <p>
             At GAP Technologies, our mission is to be the leading force in
             harnessing cutting-edge technology, particularly in the realms of
-            cybersecurity and artificial intelligence. We are dedicated to
-            equipping businesses, organizations, and individuals with the tools
-            and knowledge required to safeguard their digital assets and
-            maximize their potential. Our unwavering commitment is to bridge the
-            gap between innovation and practical solutions, empowering our
-            clients and partners to thrive in the ever-evolving digital
-            landscape.
+            cybersecurity, AI and IOT solutions. We are dedicated to equipping
+            businesses, organizations, and individuals with the tools and
+            knowledge required to safeguard their digital assets and maximize
+            their potential. Our unwavering commitment is to bridge the gap
+            between innovation and practical solutions, empowering our clients
+            and partners to thrive in the ever-evolving digital landscape.
           </p>
           <br />
           <h1 className="font-semibold text-white text-4xl mb-2">

@@ -11,9 +11,9 @@ const Header = () => {
   return (
     <div className="max-w-7xl mx-auto px-8">
       <Fade>
-        <div className="overflow-hidden flex align-middle justify-center xxs:hidden sm:block">
+        <div className="overflow-hidden flex align-middle justify-center sm:block">
           <a href="https://eccouncil.org/cybersecurity-scholarship-nepal/">
-            <img className=" h-1/3 " src={ec1} alt="EC Council"></img>
+            <img src={ec1} alt="EC Council"></img>
           </a>
         </div>
         <div>
