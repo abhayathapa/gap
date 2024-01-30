@@ -24,25 +24,25 @@ const Footer = () => {
             Copyright 2024 GAP Technologies. All rights reserved.
           </h3>
         </div>
-        {/* <div className="place-self-end self-center xxs:hidden lg:block">
-          <ul className="text-xl font-poppins font-bold">
-            <li>
+        <div className="text-xl xxs:hidden lg:block float-left mt-10">
+          <h3>Company</h3>
+          <ul className="text-sm font-bold mt-10">
+            {/* <li>
               <Link to="/">Demo</Link>
-            </li>
+            </li> */}
             <li>
-              <Link to="/">Company</Link>
+              <Link to="/partners" className="text-gray-500">
+                Partners
+              </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/">Products</Link>
             </li>
             <li>
-              <Link to="/">Portfolio</Link>
-            </li>
-            <li>
               <Link to="/">Blog</Link>
-            </li>
+            </li> */}
           </ul>
-        </div> */}
+        </div>
       </div>
     </div>
   )
